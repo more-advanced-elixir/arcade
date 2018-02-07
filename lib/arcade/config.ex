@@ -12,6 +12,10 @@ defmodule Arcade.Config do
     hangman: %{
       node_name: :"hangman@127.0.0.1",
     },
+
+    gallows: %{
+      node_name: :"gallows@127.0.0.1",
+    },
   }
 
   def config_for(component) do
